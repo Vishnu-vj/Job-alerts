@@ -12,6 +12,8 @@ sources:
         - staff
         - principal
         - manager
+        - internship
+        - intern
 
   - id: chewy-tech
     company: Chewy
@@ -25,3 +27,5 @@ sources:
         - staff
         - principal
         - manager
+        - intern
+        - internship
