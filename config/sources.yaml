@@ -1,0 +1,27 @@
+sources:
+  - id: tradedesk-swe
+    company: The Trade Desk
+    url: https://job-boards.greenhouse.io/thetradedesk
+    platform: greenhouse
+    enabled: true
+    roleFilter:
+      includeTitleKeywords:
+        - software engineer i
+        - software engineer ii
+      excludeTitleKeywords:
+        - staff
+        - principal
+        - manager
+
+  - id: chewy-tech
+    company: Chewy
+    url: https://careers.chewy.com/us/en/c/technology-jobs
+    platform: generic
+    enabled: true
+    roleFilter:
+      includeTitleKeywords:
+        - software engineer
+      excludeTitleKeywords:
+        - staff
+        - principal
+        - manager

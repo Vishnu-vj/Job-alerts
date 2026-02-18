@@ -1,0 +1,24 @@
+[project]
+name = "job-alerts"
+version = "0.1.0"
+description = "Extensible job posting watcher with Discord alerts"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "PyYAML>=6.0.1",
+  "requests>=2.32.0",
+  "python-dotenv>=1.0.1",
+]
+
+[project.scripts]
+job-alerts = "job_alerts.main:main"
+
+[build-system]
+requires = ["hatchling>=1.25.0"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/job_alerts"]
+
+[tool.ruff]
+line-length = 100
